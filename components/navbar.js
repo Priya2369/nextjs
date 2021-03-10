@@ -7,12 +7,15 @@ const Navbar = () =>{
             <div className='logo'>
                 <h1>LOGO</h1>
             </div>
+            <div className='list'>
             <Link href="/"><a>Home</a></Link> 
            <Link href="/jobs"><a>Jobs</a></Link> 
            <Link href="/companies"><a>Companies</a></Link> 
            <Link href="/about"><a>About</a></Link> 
            <Link href="/contact"><a>Contact</a></Link> 
-           <Link href="/login"><a><Button variant="contained" color="primary" size="small"><AccountCircleIcon/>Login</Button></a></Link> 
+           </div>
+           <Link href="/login"><a>
+            <Button variant="contained" color="primary" size="small"><AccountCircleIcon/>Login</Button></a></Link> 
         </nav>
     )
 }
